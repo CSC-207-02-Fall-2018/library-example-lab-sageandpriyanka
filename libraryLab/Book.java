@@ -42,7 +42,8 @@ public class Book {
     }
     
     public String toString() {
-        return title + " by " + author +
-                "\nISBN: " + isbn;
+        return "\nTitle:  " + title + 
+        		"\n        Author: " + author +
+                "\n        ISBN: " + isbn;
     }
 }

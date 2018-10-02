@@ -18,8 +18,8 @@ public class ReferenceBook extends LibraryBook{
         collection = str;
     }  
     
-    public void checkout() {
-        System.out.println("cannot check out a reference book");
+    public void checkout (String patron, String dueDate) {
+        System.out.println(patron + " cannot check out a reference book");
     }
     
     public void returned() {
@@ -33,6 +33,6 @@ public class ReferenceBook extends LibraryBook{
     
     public String toString ()
     {
-        return super.toString() + "\n Collection: " + getCollection();  
+        return super.toString() + "\n        Collection: " + getCollection();  
     }
 }
